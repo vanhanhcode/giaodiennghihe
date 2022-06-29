@@ -80,6 +80,7 @@ strong {
     justify-content: center;
     line-height: 3rem;
     color: black;
+    
 }
 .button a,strong:hover {
     background-color: blue;
