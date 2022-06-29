@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43, 177, 226);
+}
+.box {
+    width: 50rem;
+    height: 29rem;
+    background-color: aquamarine;
+    justify-content: center;
+    display: flex;
+    border: double coral;
+    margin: 20rem auto 0;
+}
+
+.box__bag {
+    width: 100%;
+}
+
+.box__bag img {
+    width: 100%;
+    height: 100%;
+}
+
+.box__text {
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+.box__text h2,h3,p {
+    padding: 0.5rem 0;
+
+}
+
+.box__text h1 {
+    padding: 1rem 0;
+}
+
+.boxes {
+    height: 2rem;
+    display: flex;
+    padding: 0 2px;
+    line-height: 2rem;
+    padding: 2rem 0;
+}
+
+div>.black {
+    width: 2rem;
+    height: 2rem;
+    background: black;
+    display: block;
+    margin: 0 1rem 0 0;
+}
+
+.red {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    display: block;
+
+}
+
+.button {
+    height: 3rem;
+    border: 2px solid #f63;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+strong {
+    display: flex;
+    justify-content: center;
+    line-height: 3rem;
+    color: black;
+}
+.button a,strong:hover {
+    background-color: blue;
+    color: rgb(105, 255, 51);
+}
